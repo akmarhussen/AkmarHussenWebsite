@@ -5,7 +5,7 @@ role :db,  %w{root@104.156.237.231}
 set :branch, "master"
 
 set :ssh_options, {
-  password: "Q{9a@.{8YVgAXAUR",
+  password: "password",
   forward_agent: false,
   auth_methods: %w(password)
 }
